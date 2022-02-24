@@ -1,0 +1,51 @@
+.react-tabs__tab-list {
+  border: none;
+}
+
+.react-tabs__tab--selected {
+  border: none;
+  border-radius: 10px;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(96, 213, 255, 1) 13%,
+    rgb(197, 197, 197) 84%
+  );
+}
+
+.react-tabs__tab:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+.react-tabs__tab:focus:after {
+  background: transparent !important;
+}
+
+.hobbies {
+  margin-top: 30px;
+
+  .hobby {
+    display: flex;
+    align-items: center;
+    margin: 20px 5px;
+
+    img {
+      width: 64px;
+      margin-right: 20px;
+    }
+
+    h5 {
+      font-weight: 700;
+    }
+  }
+}
+
+.img-unset {
+  width: unset;
+}
+
+.vertical-timeline::before {
+  background-color: #dbdbdb;
+}

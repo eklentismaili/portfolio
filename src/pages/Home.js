@@ -1,5 +1,13 @@
+import About from '../sections/About';
+import Introduction from '../sections/Introduction';
+
 function Home() {
-  return <div className="page">Home</div>;
+  return (
+    <>
+      <Introduction />
+      <About />
+    </>
+  );
 }
 
 export default Home;

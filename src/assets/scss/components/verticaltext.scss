@@ -1,0 +1,37 @@
+.section-wrapper {
+  font-size: 25px;
+  transform: rotate(0);
+  writing-mode: initial;
+  text-orientation: initial;
+  font-weight: 700;
+  .section-number {
+    position: relative;
+    left: 0;
+    top: 30px;
+  }
+
+  .section-name {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-wrapper {
+    writing-mode: vertical-lr;
+    text-orientation: inherit;
+    display: flex;
+    transform: rotate(-180deg);
+    position: relative;
+    font-size: 40px;
+
+    .section-number {
+      position: absolute;
+      left: 20px;
+      top: -50px;
+    }
+
+    .section-name {
+      padding-left: 0;
+    }
+  }
+}

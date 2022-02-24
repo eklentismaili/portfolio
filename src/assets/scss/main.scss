@@ -1,3 +1,9 @@
 @import './vendors/bootstrap.scss';
+@import 'react-tabs/style/react-tabs.css';
+@import 'react-vertical-timeline-component/style.min.css';
 @import './utils/variables.scss';
 @import './utils/global.scss';
+@import './sections/introduction.scss';
+@import './sections/about.scss';
+@import './components/verticaltext.scss';
+@import './components/tabs.scss';
