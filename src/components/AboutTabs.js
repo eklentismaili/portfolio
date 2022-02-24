@@ -18,15 +18,15 @@ function AboutTabs() {
       <TabList>
         <Tab>
           <img src={Job} alt="Experience" className="img-unset" />
-          <h6 className="mb-0">Experience</h6>
+          <h6 className="mb-0 pt-3">Experience</h6>
         </Tab>
         <Tab>
           <img src={Education} alt="Education" className="img-unset" />
-          <h6 className="mb-0">Education</h6>
+          <h6 className="mb-0 pt-3">Education</h6>
         </Tab>
         <Tab>
           <img src={Hobbies} alt="Hobbies" className="img-unset" />
-          <h6 className="mb-0">Hobbies</h6>
+          <h6 className="mb-0 pt-3">Hobbies</h6>
         </Tab>
       </TabList>
 
@@ -74,6 +74,7 @@ function AboutTabs() {
               - In charge of various projects from landing pages, content
               management systems to large and complex SaaS solutions using
               Vuejs, Vuex etc.
+              <br></br>- During this time learn
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

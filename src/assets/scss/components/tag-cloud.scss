@@ -1,0 +1,19 @@
+.tagcloud {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin: auto;
+}
+
+.tagcloud--item {
+  color: $primary;
+}
+
+.tagcloud--item:hover {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(96, 213, 255, 1) 13%,
+    rgb(197, 197, 197) 84%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
